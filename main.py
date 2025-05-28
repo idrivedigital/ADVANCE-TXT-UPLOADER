@@ -51,7 +51,7 @@ db = mongo_client[DB_NAME]
 premium_collection = db[COLLECTION_NAME]
 
 # Logging channel
-LOG_CHANNEL = -1001234567890  # Replace with your actual log channel ID
+LOG_CHANNEL = -1002253912956  # Replace with your actual log channel ID
 
 cookies_file_path = os.getenv("COOKIES_FILE_PATH", "youtube_cookies.txt")
 
@@ -64,12 +64,13 @@ async def show_random_emojis(message):
     return emoji_message
     
 # Define the owner's user ID
-OWNER_ID = 6103594386  # Replace with the actual owner's user ID
+OWNER_ID = 7409707481 # Replace with the actual owner's user ID
+
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [6103594386, 7545056722, 5854926266]
+SUDO_USERS = [7409707481]
 
-AUTH_CHANNEL = -1002572301679
+AUTH_CHANNEL = -1002614467148
 
 # Premium system functions
 def is_premium_user(user_id: int) -> bool:
